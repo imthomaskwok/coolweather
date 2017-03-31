@@ -1,8 +1,7 @@
 package com.example.coolweather.db;
-
 import org.litepal.crud.DataSupport;
 
-public class County extends DataSupport{
+public class County extends DataSupport {
 
     private int id;
 
@@ -43,4 +42,5 @@ public class County extends DataSupport{
     public void setCityId(int cityId) {
         this.cityId = cityId;
     }
+
 }
